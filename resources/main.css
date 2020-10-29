@@ -191,7 +191,7 @@ main {
         display: none;
     }
     
-    .mobile-center {
+    .mobile-center, .best-escapes-exit-section, .media-icons{
         display: flex;
     }
     
@@ -256,7 +256,74 @@ main {
         font-size: 18px;
      }
 
-    ::-webkit-scrollbar {
+    ::-webkit-scrollbar, .hidden {
         display: none;
       }
+      
+    /*---UX section---*/
+    .best-escapes-exit-section {
+        justify-content: space-between;
+        padding: 20px 10px 0 20px;
+    }
+
+    .mobile-interactive-menu {
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+    }
+
+    .exit-img-wp {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .img-exit {
+        width: 100%;
+        height: auto;
+    }
+
+    #menu-button, #close-menu {
+        cursor: pointer;
+    }
+
+    .title-menu-wp{
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+    }
+
+    .interactive-menu {
+        list-style: none;
+        padding: 40px 0 0 20px;
+    }
+
+    .interactive-menu a {
+        text-decoration: none;
+        color: white; 
+        font-size: 50px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .media-icons {
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .media-icons i:nth-of-type(2), .media-icons i:nth-of-type(1) {
+        font-size: 75px;
+        color: grey;
+        border: solid grey 1px;
+        text-align: center;
+        padding-top: 5px;
+        border-bottom: none;
+        flex: 1;
+    }
+
+    .media-icons i:nth-of-type(2) {
+        border-right: none;
+    }
 }
