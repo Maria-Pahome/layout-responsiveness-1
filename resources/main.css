@@ -41,7 +41,7 @@ header ul a {
     color: #a0a0a0;
 }
 
-.menu-bars i, .mobile-center, .mobile-bottom {
+.menu-bars i, .mobile-center, .mobile-bottom, .hidden {
     display: none;
 }
 
